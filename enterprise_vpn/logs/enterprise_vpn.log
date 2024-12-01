@@ -1,0 +1,44 @@
+2024-12-01 15:20:43 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:20:43 - wireguard - ERROR - Failed to initialize WireGuard: 'WireGuardAdapter' object has no attribute '_check_wireguard_installation'
+2024-12-01 15:22:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:22:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:22:51 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: [Errno 2] No such file or directory: '/etc/wireguard/wg0.conf/wg0.conf'
+2024-12-01 15:24:25 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:24:25 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:24:25 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-01 15:24:25 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'
+2024-12-01 15:28:08 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:28:08 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:28:08 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: 'None' does not appear to be an IPv4 or IPv6 address
+2024-12-01 15:29:30 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:29:30 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:29:30 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'description'
+2024-12-01 15:31:08 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:31:08 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:31:08 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() got an unexpected keyword argument 'peer'
+2024-12-01 15:32:29 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:32:29 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:32:29 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-01 15:32:29 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'
+2024-12-01 15:34:47 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:34:47 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:34:47 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() got an unexpected keyword argument 'peer'
+2024-12-01 15:38:02 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:38:02 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:38:02 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-01 15:38:02 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'
+2024-12-01 15:39:12 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:39:12 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:39:12 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-01 15:39:12 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'
+2024-12-01 15:39:37 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:39:37 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:39:37 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-01 15:39:37 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'
+2024-12-01 15:41:05 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:41:05 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:41:05 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() got an unexpected keyword argument 'peer'
+2024-12-01 15:43:00 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-01 15:43:00 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-01 15:43:00 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-01 15:43:00 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'

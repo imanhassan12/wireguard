@@ -1,0 +1,14 @@
+policies:
+  developer_access:
+    access_level: READ
+    allowed_ips:
+    - 10.0.0.0/24
+    allowed_ports:
+    - 22
+    - 80
+    - 443
+    description: Policy for Developer Access
+    name: Developer Access
+    resources:
+    - dev-servers
+    - staging

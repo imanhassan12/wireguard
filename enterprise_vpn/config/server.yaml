@@ -1,0 +1,6 @@
+endpoint: vpn.company.com
+port: 51820
+subnet: 10.0.0.0/24
+wireguard:
+  private_key: bH1WvWz7J0cjRinfb2VXsNjzYQLf0fzxnQ5LxxOg6ws=
+  public_key: A3NuR8IHf2ebwgowh5+HO0WFc5Jdusuw/zBOWsHU61Q=

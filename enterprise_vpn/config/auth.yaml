@@ -1,0 +1,3 @@
+api_token: your-token
+domain: company.okta.com
+provider: okta
