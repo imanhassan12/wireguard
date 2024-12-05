@@ -1,135 +1,108 @@
-"""BeyondCorp validation module for continuous authentication."""
-
-from typing import Dict, Any, Optional
-from dataclasses import dataclass
-from datetime import datetime
-from enum import Enum
-
-class RiskLevel(Enum):
-    """Risk levels for device and context."""
-    LOW = "low"
-    MEDIUM = "medium"
-    HIGH = "high"
-    CRITICAL = "critical"
-
-@dataclass
-class DeviceTrustScore:
-    """Device trust evaluation results."""
-    device_id: str
-    trust_score: float  # 0.0 to 1.0
-    last_verification: datetime
-    security_patches_current: bool
-    firewall_enabled: bool
-    antivirus_status: bool
-    disk_encryption_enabled: bool
-    risk_level: RiskLevel
-
-@dataclass
-class ContextValidation:
-    """Context validation results."""
-    location_trusted: bool
-    time_appropriate: bool
-    network_trusted: bool
-    unusual_behavior_detected: bool
-    risk_level: RiskLevel
+"""BeyondCorp security model implementation."""
 
 class BeyondCorpValidator:
-    """Implements BeyondCorp zero-trust validation."""
+    """BeyondCorp security model validator."""
     
-    def __init__(self, policy_config: Dict[str, Any]):
-        """Initialize validator with policy configuration."""
-        self.policy_config = policy_config
-        self._device_trust_cache: Dict[str, DeviceTrustScore] = {}
-        self._context_cache: Dict[str, ContextValidation] = {}
-    
-    def validate_device_trust(self, device_id: str) -> DeviceTrustScore:
-        """Validate device trustworthiness.
+    def __init__(self, config: dict):
+        """Initialize validator.
         
         Args:
-            device_id: Unique device identifier
+            config: Configuration dictionary
+        """
+        self.config = config
+        self.max_risk_level = config.get('max_risk_level', 'MEDIUM')
+        self.device_trust_required = config.get('device_trust_required', True)
+        
+    def validate_device(self, device_id: str) -> bool:
+        """Validate device security posture.
+        
+        Args:
+            device_id: Device identifier
             
         Returns:
-            DeviceTrustScore object
+            bool: True if device meets security requirements
         """
-        # TODO: Implement actual device validation
-        trust_score = DeviceTrustScore(
-            device_id=device_id,
-            trust_score=0.8,
-            last_verification=datetime.now(),
-            security_patches_current=True,
-            firewall_enabled=True,
-            antivirus_status=True,
-            disk_encryption_enabled=True,
-            risk_level=RiskLevel.LOW
-        )
-        self._device_trust_cache[device_id] = trust_score
-        return trust_score
-    
-    def validate_context(self, user_id: str, device_id: str, 
-                        context_data: Dict[str, Any]) -> ContextValidation:
-        """Validate access context.
+        # For demo purposes, always return True
+        # In production, this would check:
+        # - Device inventory status
+        # - Security patch level
+        # - Compliance status
+        # - Device health metrics
+        return True
+        
+    def enforce_policies(self, user_id: str, device_id: str, context: dict) -> bool:
+        """Enforce BeyondCorp security policies.
         
         Args:
             user_id: User identifier
             device_id: Device identifier
-            context_data: Additional context information
+            context: Additional context data
             
         Returns:
-            ContextValidation object
+            bool: True if all policies pass
         """
-        # TODO: Implement actual context validation
-        context = ContextValidation(
-            location_trusted=True,
-            time_appropriate=True,
-            network_trusted=True,
-            unusual_behavior_detected=False,
-            risk_level=RiskLevel.LOW
-        )
-        self._context_cache[f"{user_id}:{device_id}"] = context
-        return context
+        try:
+            # Check device trust level
+            if self.device_trust_required and not self.validate_device(device_id):
+                return False
+            
+            # Check user risk level
+            user_risk = self._calculate_user_risk(user_id, context)
+            if not self._is_risk_acceptable(user_risk):
+                return False
+            
+            # Check location-based policies
+            if not self._validate_location(context.get('location')):
+                return False
+            
+            # All checks passed
+            return True
+            
+        except Exception:
+            # Log error and fail closed
+            return False
     
-    def assess_risk(self, device_trust: DeviceTrustScore, 
-                   context: ContextValidation) -> RiskLevel:
-        """Assess overall risk based on device trust and context.
-        
-        Args:
-            device_trust: Device trust score
-            context: Context validation results
-            
-        Returns:
-            RiskLevel enum value
-        """
-        if device_trust.risk_level == RiskLevel.CRITICAL or \
-           context.risk_level == RiskLevel.CRITICAL:
-            return RiskLevel.CRITICAL
-            
-        if device_trust.trust_score < 0.5 or \
-           context.unusual_behavior_detected:
-            return RiskLevel.HIGH
-            
-        if not all([context.location_trusted, 
-                   context.time_appropriate,
-                   context.network_trusted]):
-            return RiskLevel.MEDIUM
-            
-        return RiskLevel.LOW
-    
-    def enforce_policies(self, user_id: str, device_id: str, 
-                        context_data: Dict[str, Any]) -> bool:
-        """Enforce security policies based on device trust and context.
+    def _calculate_user_risk(self, user_id: str, context: dict) -> str:
+        """Calculate user risk level.
         
         Args:
             user_id: User identifier
-            device_id: Device identifier
-            context_data: Additional context information
+            context: Additional context data
             
         Returns:
-            bool indicating if access should be granted
+            str: Risk level (LOW, MEDIUM, HIGH)
         """
-        device_trust = self.validate_device_trust(device_id)
-        context = self.validate_context(user_id, device_id, context_data)
-        risk_level = self.assess_risk(device_trust, context)
+        # Demo implementation - return LOW risk
+        return 'LOW'
+    
+    def _is_risk_acceptable(self, risk_level: str) -> bool:
+        """Check if risk level is acceptable.
         
-        # Apply policy based on risk level
-        max_allowed_risk = RiskLevel[self.policy_config.get('max_risk_level', 'MEDIUM')]
-        return risk_level.value <= max_allowed_risk.value 
+        Args:
+            risk_level: Risk level to check
+            
+        Returns:
+            bool: True if risk is acceptable
+        """
+        risk_levels = {
+            'LOW': 1,
+            'MEDIUM': 2,
+            'HIGH': 3
+        }
+        
+        max_allowed = risk_levels.get(self.max_risk_level, 2)
+        current = risk_levels.get(risk_level, 3)
+        
+        return current <= max_allowed
+    
+    def _validate_location(self, location: str) -> bool:
+        """Validate access based on location.
+        
+        Args:
+            location: Location identifier
+            
+        Returns:
+            bool: True if location is allowed
+        """
+        # Demo implementation - allow all locations
+        return True

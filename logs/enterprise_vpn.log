@@ -1,0 +1,715 @@
+2024-12-03 21:57:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 21:57:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 21:57:51 - wireguard - ERROR - Failed to initialize WireGuard: No permission to write to /etc/wireguard. Try running with sudo.
+2024-12-03 21:57:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 21:57:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 21:57:51 - wireguard - ERROR - Failed to initialize WireGuard: No permission to write to /etc/wireguard. Try running with sudo.
+2024-12-03 21:58:10 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 21:58:10 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 21:58:10 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 21:58:10 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() missing 1 required positional argument: 'peer'
+2024-12-03 22:23:30 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:23:30 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:23:30 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: __init__() got an unexpected keyword argument 'peer'
+2024-12-03 22:25:50 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:25:50 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:25:50 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:25:50 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:25:50 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:26:22 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:26:22 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:26:22 - wireguard - ERROR - Failed to initialize WireGuard: No permission to write to /etc/wireguard. Try running with sudo.
+2024-12-03 22:26:31 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:26:31 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:26:31 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:26:31 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:28:44 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:28:44 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:28:44 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:28:44 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:28:56 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:28:56 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:28:56 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:28:56 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:29:05 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:29:05 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:29:05 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:29:05 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:31:13 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:31:13 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:31:13 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:31:13 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:31:50 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:31:50 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:31:50 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:31:50 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:32:58 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:32:58 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:32:58 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:32:58 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:32:58 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:33:02 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:33:02 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:33:02 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:33:02 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:33:10 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:33:10 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:33:10 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:33:10 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:33:10 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:35:56 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:35:56 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:35:56 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:35:56 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:04 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:04 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:04 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:04 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:06 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:06 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:06 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:06 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:08 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:08 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:08 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:08 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:10 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:10 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:10 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:10 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:16 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:16 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:16 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:16 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:22 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:22 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:22 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:22 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:30 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:30 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:30 - wireguard - INFO - Using existing server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:30 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:36:54 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:36:54 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:36:54 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:36:54 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:36:54 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:38:02 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:38:02 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:38:02 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:38:02 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:38:02 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:38:05 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:38:05 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:38:05 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:38:05 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:38:05 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:38:34 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:38:34 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:38:34 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:38:34 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:38:34 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:44:35 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:44:35 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:44:35 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:44:35 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:44:35 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 22:48:31 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:48:31 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:48:31 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:48:31 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:48:31 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: [Errno 2] No such file or directory: 'ip'
+2024-12-03 22:49:27 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:49:27 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:49:27 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:49:27 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:49:27 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: [#] sysctl -w net.inet.ip.forwarding=1
+[#] pfctl -e
+No ALTQ support in kernel
+ALTQ related functions disabled
+pf enabled
+[#] echo 'nat on en0 from {subnet} to any -> (en0)' | pfctl -f -
+pfctl: Use of -f option, could result in flushing of rules
+present in the main ruleset added by the system at startup.
+See /etc/pf.conf for further details.
+
+No ALTQ support in kernel
+ALTQ related functions disabled
+no IP address found for subnet
+stdin:1: could not parse host specification
+pfctl: Syntax error in config file: pf rules not loaded
+[#] rm -f /var/run/wireguard/wg0.name
+
+2024-12-03 22:50:21 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:50:21 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:50:21 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:50:21 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:50:22 - wireguard - INFO - Started WireGuard interface: wg0
+2024-12-03 22:50:24 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-03 22:51:07 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:51:07 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:51:07 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:51:07 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:51:07 - wireguard - INFO - Started WireGuard interface: wg0
+2024-12-03 22:51:12 - wireguard - WARNING - Interface verification attempt 1 failed, retrying...
+2024-12-03 22:51:14 - wireguard - WARNING - Interface verification attempt 2 failed, retrying...
+2024-12-03 22:51:16 - wireguard - WARNING - Interface verification attempt 3 failed, retrying...
+2024-12-03 22:51:18 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Failed to verify interface after multiple attempts
+2024-12-03 22:53:26 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:53:26 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:53:26 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/utun5.conf
+2024-12-03 22:53:26 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:53:26 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Failed to create interface: 
+2024-12-03 22:53:37 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:53:37 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:53:37 - wireguard - INFO - Using existing server configuration at /etc/wireguard/utun5.conf
+2024-12-03 22:53:37 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:53:52 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:53:52 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:53:52 - wireguard - INFO - Using existing server configuration at /etc/wireguard/utun5.conf
+2024-12-03 22:53:52 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:54:00 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:54:00 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:54:00 - wireguard - INFO - Using existing server configuration at /etc/wireguard/utun5.conf
+2024-12-03 22:54:00 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: can't set attribute
+2024-12-03 22:55:34 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:55:34 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:55:34 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/utun5.conf
+2024-12-03 22:55:34 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:55:35 - wireguard - INFO - Creating interface utun5 with wireguard-go
+2024-12-03 22:55:35 - wireguard - ERROR - Interface management failed: Failed to create interface: 
+2024-12-03 22:55:35 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Failed to create interface: 
+2024-12-03 22:57:53 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:57:53 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:57:53 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/utun5.conf
+2024-12-03 22:57:53 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:57:54 - wireguard - INFO - Creating interface utun5 with wireguard-go
+2024-12-03 22:57:54 - wireguard - ERROR - Interface management failed: Failed to create interface: 
+2024-12-03 22:57:54 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Failed to create interface: 
+2024-12-03 22:58:20 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 22:58:20 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 22:58:20 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 22:58:20 - wireguard - INFO - Server configuration created successfully
+2024-12-03 22:58:21 - wireguard - INFO - Configuration copied to WireGuard app: /Users/sewchen/Library/Application Support/WireGuard/Configurations/wg0.conf
+2024-12-03 22:58:21 - wireguard - INFO - Started WireGuard interface: wg0
+2024-12-03 22:58:24 - wireguard - ERROR - Interface management failed: Interface wg0 not properly configured
+2024-12-03 22:58:24 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Interface wg0 not properly configured
+2024-12-03 23:00:44 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:00:44 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:00:44 - wireguard - INFO - Creating initial server configuration at /etc/wireguard/wg0.conf
+2024-12-03 23:00:44 - wireguard - INFO - Server configuration created successfully
+2024-12-03 23:00:45 - wireguard - INFO - Configuration copied to WireGuard app: /Users/sewchen/Library/Application Support/WireGuard/Configurations/wg0.conf
+2024-12-03 23:00:45 - wireguard - INFO - Started WireGuard interface: wg0
+2024-12-03 23:00:49 - wireguard - ERROR - Interface management failed: Interface wg0 not properly configured
+2024-12-03 23:00:49 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Interface wg0 not properly configured
+2024-12-03 23:01:08 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:01:08 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:01:09 - wireguard - INFO - Created configuration at /etc/wireguard/wg0.conf
+2024-12-03 23:01:09 - wireguard - INFO - Created peers configuration at /etc/wireguard/wg0-peers.conf
+2024-12-03 23:01:09 - wireguard - INFO - Starting WireGuard interface wg0...
+2024-12-03 23:01:10 - wireguard - ERROR - Failed to manage interface: [#] wireguard-go utun
+[+] Interface for wg0 is utun6
+[#] wg setconf utun6 /dev/fd/63
+[#] ifconfig utun6 inet 10.0.0.1/24 10.0.0.1 alias
+[#] ifconfig utun6 up
+[+] Backgrounding route monitor
+[#] sysctl -w net.inet.ip.forwarding=1
+[#] pfctl -e || true
+No ALTQ support in kernel
+ALTQ related functions disabled
+pfctl: pf already enabled
+[#] echo "nat on en0 from 10.0.0.0/24 to any -> (en0)" | pfctl -f -
+pfctl: Use of -f option, could result in flushing of rules
+present in the main ruleset added by the system at startup.
+See /etc/pf.conf for further details.
+
+No ALTQ support in kernel
+ALTQ related functions disabled
+[#] pfctl -f /etc/pf.conf
+pfctl: Use of -f option, could result in flushing of rules
+present in the main ruleset added by the system at startup.
+See /etc/pf.conf for further details.
+
+No ALTQ support in kernel
+ALTQ related functions disabled
+[#] wg addconf utun6 /etc/wireguard/utun6-peers.conf
+fopen: No such file or directory
+[#] rm -f /var/run/wireguard/utun6.sock
+[#] rm -f /var/run/wireguard/wg0.name
+
+2024-12-03 23:01:10 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: [#] wireguard-go utun
+[+] Interface for wg0 is utun6
+[#] wg setconf utun6 /dev/fd/63
+[#] ifconfig utun6 inet 10.0.0.1/24 10.0.0.1 alias
+[#] ifconfig utun6 up
+[+] Backgrounding route monitor
+[#] sysctl -w net.inet.ip.forwarding=1
+[#] pfctl -e || true
+No ALTQ support in kernel
+ALTQ related functions disabled
+pfctl: pf already enabled
+[#] echo "nat on en0 from 10.0.0.0/24 to any -> (en0)" | pfctl -f -
+pfctl: Use of -f option, could result in flushing of rules
+present in the main ruleset added by the system at startup.
+See /etc/pf.conf for further details.
+
+No ALTQ support in kernel
+ALTQ related functions disabled
+[#] pfctl -f /etc/pf.conf
+pfctl: Use of -f option, could result in flushing of rules
+present in the main ruleset added by the system at startup.
+See /etc/pf.conf for further details.
+
+No ALTQ support in kernel
+ALTQ related functions disabled
+[#] wg addconf utun6 /etc/wireguard/utun6-peers.conf
+fopen: No such file or directory
+[#] rm -f /var/run/wireguard/utun6.sock
+[#] rm -f /var/run/wireguard/wg0.name
+
+2024-12-03 23:02:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:02:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:02:52 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:02:52 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:02:52 - wireguard - INFO - Creating interface utun6...
+2024-12-03 23:02:54 - wireguard - INFO - Configuring interface utun6...
+2024-12-03 23:02:54 - wireguard - ERROR - Failed to manage interface: Line unrecognized: `Address=10.0.0.1/24'
+Configuration parsing error
+
+2024-12-03 23:02:54 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Line unrecognized: `Address=10.0.0.1/24'
+Configuration parsing error
+
+2024-12-03 23:03:57 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:03:57 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:03:58 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:03:58 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:03:58 - wireguard - INFO - Creating interface utun6...
+2024-12-03 23:03:58 - wireguard - ERROR - Interface management failed: Failed to create interface: 
+2024-12-03 23:03:58 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Failed to create interface: 
+2024-12-03 23:05:26 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:05:26 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:05:27 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:05:27 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:05:27 - wireguard - INFO - Creating interface utun6 using /opt/homebrew/bin/wireguard-go...
+2024-12-03 23:05:27 - wireguard - INFO - Interface utun6 already exists, bringing it down...
+2024-12-03 23:05:28 - wireguard - ERROR - Failed to create interface: ERROR: (utun6) 2024/12/03 23:05:28 Failed to create TUN device: resource busy
+
+2024-12-03 23:05:28 - wireguard - ERROR - Interface management failed: Failed to create interface: ERROR: (utun6) 2024/12/03 23:05:28 Failed to create TUN device: resource busy
+
+2024-12-03 23:05:28 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Failed to create interface: ERROR: (utun6) 2024/12/03 23:05:28 Failed to create TUN device: resource busy
+
+2024-12-03 23:21:01 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:21:01 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:21:01 - wireguard - INFO - Attempting to create interface utun6...
+2024-12-03 23:21:02 - wireguard - INFO - Successfully created interface utun6
+2024-12-03 23:21:04 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:21:04 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:21:04 - wireguard - INFO - Configuring interface utun6...
+2024-12-03 23:21:04 - wireguard - INFO - Setting interface address to 10.0.0.1/24
+2024-12-03 23:21:04 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-03 23:21:04 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  public key: JYEQ8o5CUUX4oIU287zXq8lQ2ZjG/Tz1kiIYmHl9Uyc=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-03 23:21:04 - wireguard - INFO - Interface verification successful
+2024-12-03 23:21:04 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 23:28:25 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:28:25 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:28:25 - wireguard - INFO - Attempting to create interface utun6...
+2024-12-03 23:28:26 - wireguard - INFO - Successfully created interface utun6
+2024-12-03 23:28:28 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:28:28 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:28:28 - wireguard - INFO - Configuring interface utun6...
+2024-12-03 23:28:28 - wireguard - INFO - Setting interface address to 10.0.0.1/24
+2024-12-03 23:28:28 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-03 23:28:28 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  public key: 0sv0YL6U7vHPdDeFztmo7XqTHpzNDA5WzMVlG8ZnT14=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-03 23:28:28 - wireguard - INFO - Interface verification successful
+2024-12-03 23:28:28 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 23:28:44 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:28:44 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:28:44 - wireguard - INFO - Attempting to create interface utun6...
+2024-12-03 23:28:45 - wireguard - INFO - Successfully created interface utun6
+2024-12-03 23:28:47 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:28:47 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:28:47 - wireguard - INFO - Configuring interface utun6...
+2024-12-03 23:28:47 - wireguard - INFO - Setting interface address to 10.0.0.1/24
+2024-12-03 23:28:47 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-03 23:28:47 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  public key: tk82QZNDA3oNiEIAc2xuem4iTxCt2bhze6ATum9xulA=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-03 23:28:47 - wireguard - INFO - Interface verification successful
+2024-12-03 23:28:47 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 23:28:57 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:28:57 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:28:57 - wireguard - INFO - Attempting to create interface utun6...
+2024-12-03 23:28:58 - wireguard - INFO - Successfully created interface utun6
+2024-12-03 23:29:00 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:29:00 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:29:00 - wireguard - INFO - Configuring interface utun6...
+2024-12-03 23:29:00 - wireguard - INFO - Setting interface address to 10.0.0.1/24
+2024-12-03 23:29:00 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-03 23:29:00 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  public key: CvT4wmPukjXn4CRlbIfvJX4uEUrN4AN4fSnDovrlK2E=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-03 23:29:00 - wireguard - INFO - Interface verification successful
+2024-12-03 23:29:00 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-03 23:29:17 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-03 23:29:17 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-03 23:29:17 - wireguard - INFO - Attempting to create interface utun6...
+2024-12-03 23:29:18 - wireguard - INFO - Successfully created interface utun6
+2024-12-03 23:29:20 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-03 23:29:20 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-03 23:29:20 - wireguard - INFO - Configuring interface utun6...
+2024-12-03 23:29:21 - wireguard - INFO - Setting interface address to 10.0.0.1/24
+2024-12-03 23:29:21 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-03 23:29:21 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  public key: tACzq8dZlOgBXV3WNIRxiWk5oMbo2w0AMJq4ZxYRi2k=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-03 23:29:21 - wireguard - INFO - Interface verification successful
+2024-12-03 23:29:21 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:19:20 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:19:20 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:19:20 - wireguard - INFO - Attempting to create interface utun6...
+2024-12-04 11:19:21 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:19:23 - wireguard - INFO - Created configuration at /etc/wireguard/utun6.conf
+2024-12-04 11:19:23 - wireguard - INFO - Created peers configuration at /etc/wireguard/utun6-peers.conf
+2024-12-04 11:19:23 - wireguard - INFO - Configuring interface utun6...
+2024-12-04 11:19:23 - wireguard - INFO - Setting interface address to 10.0.0.1/24
+2024-12-04 11:19:23 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:19:23 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  public key: W2o+XMwnht2SImmu4TJqIEXoaQQL2bxdLc74ZHFHNRQ=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 11:19:23 - wireguard - INFO - Interface verification successful
+2024-12-04 11:19:23 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:23:19 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:23:19 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:23:20 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:23:22 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:23:22 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  listening port: 59591
+
+2024-12-04 11:23:22 - wireguard - INFO - Interface verification successful
+2024-12-04 11:23:22 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:25:44 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:25:44 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:25:45 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:25:47 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:25:47 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  listening port: 63315
+
+2024-12-04 11:25:47 - wireguard - INFO - Interface verification successful
+2024-12-04 11:25:47 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:30:28 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:30:28 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:30:29 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:30:31 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:30:31 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  listening port: 63867
+
+2024-12-04 11:30:31 - wireguard - INFO - Interface verification successful
+2024-12-04 11:30:31 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:32:47 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:32:47 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:32:48 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:32:50 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:32:50 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  listening port: 56035
+
+2024-12-04 11:32:50 - wireguard - INFO - Interface verification successful
+2024-12-04 11:32:50 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:34:08 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:34:08 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:34:09 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:34:11 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:34:11 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  listening port: 49515
+
+2024-12-04 11:34:11 - wireguard - INFO - Interface verification successful
+2024-12-04 11:34:11 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:34:14 - wireguard - INFO - Found active interface: utun6
+2024-12-04 11:34:16 - wireguard - INFO - Stopped WireGuard interface: utun6
+2024-12-04 11:34:47 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:34:47 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:34:48 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:34:48 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:35:25 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:35:25 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:35:26 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:35:26 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:35:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:35:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:35:53 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:35:53 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:36:27 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:36:27 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:36:28 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:36:28 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:36:55 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:36:55 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:36:56 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:36:56 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:37:31 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:37:31 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:37:32 - wireguard - ERROR - Error creating interface: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:37:32 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:37:32 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:38:46 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:38:46 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:38:47 - wireguard - ERROR - Error creating interface: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:38:47 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:38:47 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:39:59 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:39:59 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:39:59 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:40:22 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:40:22 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:40:22 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: 'bytes' object has no attribute 'encode'
+2024-12-04 11:40:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:40:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:40:52 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:40:55 - wireguard - ERROR - Error setting port: Command '['sudo', '-S', 'wg', 'set', 'utun6', 'listen-port', '51820']' returned non-zero exit status 1., type: <class 'subprocess.CalledProcessError'>
+2024-12-04 11:40:55 - wireguard - ERROR - Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:40:55 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:41:17 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:41:17 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:41:18 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:41:20 - wireguard - ERROR - Error setting port: Command '['sudo', '-S', 'wg', 'set', 'utun6', 'listen-port', '51820']' returned non-zero exit status 1., type: <class 'subprocess.CalledProcessError'>
+2024-12-04 11:41:20 - wireguard - ERROR - Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:41:20 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:43:10 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:43:10 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:43:11 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:43:14 - wireguard - ERROR - Error setting port: Command '['sudo', '-S', 'wg', 'set', 'utun6', 'listen-port', '51820']' returned non-zero exit status 1., type: <class 'subprocess.CalledProcessError'>
+2024-12-04 11:43:14 - wireguard - ERROR - Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:43:14 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:43:36 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:43:36 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:43:37 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:43:39 - wireguard - ERROR - Error setting port: Command '['sudo', '-S', 'wg', 'set', 'utun6', 'listen-port', '51820']' returned non-zero exit status 1., type: <class 'subprocess.CalledProcessError'>
+2024-12-04 11:43:39 - wireguard - ERROR - Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:43:39 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:44:16 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:44:16 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:44:17 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:44:19 - wireguard - ERROR - Error setting port: Command '['sudo', '-S', 'wg', 'set', 'utun6', 'listen-port', '51820']' returned non-zero exit status 1., type: <class 'subprocess.CalledProcessError'>
+2024-12-04 11:44:19 - wireguard - ERROR - Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:44:19 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:46:02 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:46:02 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:46:03 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:46:05 - wireguard - ERROR - Error setting port: Command '['sudo', '-S', 'wg', 'set', 'utun6', 'listen-port', '51820']' returned non-zero exit status 1., type: <class 'subprocess.CalledProcessError'>
+2024-12-04 11:46:05 - wireguard - ERROR - Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:46:05 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Failed to manage interface: Unable to modify interface: Address already in use
+
+2024-12-04 11:47:01 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:47:01 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:47:02 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 11:47:04 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 11:47:04 - wireguard - INFO - WireGuard interface configuration:
+interface: utun6
+  listening port: 63254
+
+2024-12-04 11:47:04 - wireguard - INFO - Interface verification successful
+2024-12-04 11:47:04 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 11:48:38 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:48:38 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:48:39 - wireguard - ERROR - Error creating interface: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:48:39 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:48:39 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:49:06 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 11:49:06 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 11:49:07 - wireguard - ERROR - Error creating interface: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:49:07 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 11:49:07 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 12:34:21 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:34:21 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:34:22 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 12:34:25 - wireguard - ERROR - Error setting up interface: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 12:34:25 - wireguard - ERROR - Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 12:34:25 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: 'bytes' object has no attribute 'encode', type: <class 'AttributeError'>
+2024-12-04 12:36:21 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:36:21 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:36:22 - wireguard - INFO - Successfully created interface utun6
+2024-12-04 12:36:24 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 12:36:24 - wireguard - ERROR - WireGuard show output: Unable to access interface: No such file or directory
+
+2024-12-04 12:36:24 - wireguard - ERROR - Interface management failed: Interface utun6 not properly configured, type: <class 'enterprise_vpn.core.exceptions.WireGuardInterfaceError'>
+2024-12-04 12:36:24 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Interface utun6 not properly configured, type: <class 'enterprise_vpn.core.exceptions.WireGuardInterfaceError'>
+2024-12-04 12:36:50 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:36:50 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:36:53 - wireguard - INFO - Started WireGuard interface: utun6
+2024-12-04 12:36:53 - wireguard - ERROR - WireGuard show output: Unable to access interface: No such file or directory
+
+2024-12-04 12:36:53 - wireguard - ERROR - Interface management failed: Interface utun6 not properly configured, type: <class 'enterprise_vpn.core.exceptions.WireGuardInterfaceError'>
+2024-12-04 12:36:53 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Interface utun6 not properly configured, type: <class 'enterprise_vpn.core.exceptions.WireGuardInterfaceError'>
+2024-12-04 12:37:20 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:37:20 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:37:23 - wireguard - INFO - Started WireGuard interface: wg0
+2024-12-04 12:37:23 - wireguard - ERROR - WireGuard show output: Unable to access interface: No such file or directory
+
+2024-12-04 12:37:23 - wireguard - ERROR - Interface management failed: Interface wg0 not properly configured, type: <class 'enterprise_vpn.core.exceptions.WireGuardInterfaceError'>
+2024-12-04 12:37:23 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface management failed: Interface wg0 not properly configured, type: <class 'enterprise_vpn.core.exceptions.WireGuardInterfaceError'>
+2024-12-04 12:38:07 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:38:07 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:38:08 - wireguard - ERROR - Error configuring interface: Command '['sudo', '-S', 'wg', 'setconf', 'utun7', '/etc/wireguard/utun7.conf']' returned non-zero exit status 1.
+2024-12-04 12:38:08 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg', 'setconf', 'utun7', '/etc/wireguard/utun7.conf']' returned non-zero exit status 1.
+2024-12-04 12:39:09 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:39:09 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:39:09 - wireguard - ERROR - Error creating interface: Command '['sudo', '-S', 'wireguard-go', 'utun7']' returned non-zero exit status 1.
+2024-12-04 12:39:09 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wireguard-go', 'utun7']' returned non-zero exit status 1.
+2024-12-04 12:39:38 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:39:38 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:39:38 - wireguard - ERROR - Error creating interface: Command '['sudo', '-S', 'wireguard-go', 'utun7']' returned non-zero exit status 1.
+2024-12-04 12:39:38 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wireguard-go', 'utun7']' returned non-zero exit status 1.
+2024-12-04 12:40:08 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:40:08 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:40:12 - wireguard - ERROR - Error verifying interface: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-04 12:40:12 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-04 12:40:57 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:40:57 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:41:01 - wireguard - ERROR - Error configuring interface: Command '['sudo', '-S', 'wg', 'setconf', 'utun8', '/etc/wireguard/utun8.conf']' returned non-zero exit status 1.
+2024-12-04 12:41:01 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg', 'setconf', 'utun8', '/etc/wireguard/utun8.conf']' returned non-zero exit status 1.
+2024-12-04 12:41:50 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:41:50 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:41:55 - wireguard - ERROR - Error setting up networking: Command '['sudo', '-S', 'ifconfig', 'utun8', 'inet', '10.0.0.1/24', 'up']' returned non-zero exit status 1.
+2024-12-04 12:41:55 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'ifconfig', 'utun8', 'inet', '10.0.0.1/24', 'up']' returned non-zero exit status 1.
+2024-12-04 12:42:25 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:42:25 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:42:30 - wireguard - ERROR - Error setting up networking: Command '['sudo', '-S', 'ifconfig', 'utun8', 'inet', '10.0.0.1', 'netmask', '255.255.255.0']' returned non-zero exit status 1.
+2024-12-04 12:42:30 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'ifconfig', 'utun8', 'inet', '10.0.0.1', 'netmask', '255.255.255.0']' returned non-zero exit status 1.
+2024-12-04 12:43:12 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:43:12 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:43:16 - wireguard - ERROR - Error verifying interface: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-04 12:43:16 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-04 12:44:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:44:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:44:56 - wireguard - ERROR - Error setting up networking: Command '['sudo', '-S', 'ifconfig', 'utun5', 'inet', '10.0.0.1', 'netmask', '255.255.255.0', 'alias']' returned non-zero exit status 1.
+2024-12-04 12:44:56 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'ifconfig', 'utun5', 'inet', '10.0.0.1', 'netmask', '255.255.255.0', 'alias']' returned non-zero exit status 1.
+2024-12-04 12:45:34 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:45:34 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:45:39 - wireguard - INFO - Interface configuration:
+interface: utun6
+  public key: 3IY9ZW+WAhT5NrA895C+rA+Q8LBMcizXE8FUu3y49yE=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 12:45:39 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 12:49:28 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:49:28 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:49:33 - wireguard - INFO - Interface configuration:
+interface: utun5
+  public key: F6FJaYh2C9jwoKa5+NQSEs9N8IG8Ifrg1eZn+0gFzHg=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 12:49:33 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 12:52:18 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:52:18 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:52:23 - wireguard - INFO - Interface configuration:
+interface: utun5
+  public key: zbfvvim6TK/AUBgpPv5vdNmazkV2Pq4PvPbaJRgSWAw=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 12:52:23 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 12:54:46 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:54:46 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:54:50 - wireguard - ERROR - Error verifying interface: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-04 12:54:50 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Interface verification failed: Unable to access interface: No such file or directory
+
+2024-12-04 12:54:50 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:54:50 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:54:52 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:54:52 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:10 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:55:10 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:55:12 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:12 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:20 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:55:20 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:55:22 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:22 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:23 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:55:23 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:55:25 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:25 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:46 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:55:46 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:55:49 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:55:49 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:56:15 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:56:15 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:56:17 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:56:17 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:56:51 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:56:51 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:56:54 - wireguard - ERROR - Error starting interface: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:56:54 - wireguard - ERROR - Failed to initialize WireGuard: Server initialization failed: Command '['sudo', '-S', 'wg-quick', 'up', '/etc/wireguard/utun5.conf']' returned non-zero exit status 1.
+2024-12-04 12:57:25 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:57:25 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:57:30 - wireguard - INFO - Interface configuration:
+interface: utun5
+  public key: Up0soyk4abkJMlzFd96kcjuLMDj57+OPE0M3oZOgMzc=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 12:57:30 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 12:57:58 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:57:58 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:58:03 - wireguard - INFO - Interface configuration:
+interface: utun5
+  public key: qnqhQcslQffr5VCYziWBmmaJV8QbvqUsDFmUFuLVnjE=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 12:58:03 - wireguard - INFO - WireGuard adapter initialized successfully in server mode
+2024-12-04 12:58:14 - wireguard - INFO - Initializing WireGuard adapter in server mode
+2024-12-04 12:58:14 - wireguard - INFO - Found WireGuard: wireguard-tools v1.0.20210914 - https://git.zx2c4.com/wireguard-tools/
+2024-12-04 12:58:19 - wireguard - INFO - Interface configuration:
+interface: utun5
+  public key: kRIcLR7i1LNtzE5AXW6jpS90z2MoVBDN38FgLZJ5w0Q=
+  private key: (hidden)
+  listening port: 51820
+
+2024-12-04 12:58:19 - wireguard - INFO - WireGuard adapter initialized successfully in server mode

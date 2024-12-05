@@ -1,11 +1,20 @@
 """Core module for Enterprise VPN application."""
 
 from .models import ConnectionStatus
-from .wireguard_adapter import WireGuardAdapter, WireGuardMode, WireGuardError
+from .exceptions import (
+    WireGuardError,
+    WireGuardConfigError,
+    WireGuardConnectionError,
+    WireGuardInterfaceError
+)
+from .wireguard_adapter import WireGuardAdapter, WireGuardMode
 
 __all__ = [
     'ConnectionStatus',
     'WireGuardAdapter',
     'WireGuardMode',
-    'WireGuardError'
+    'WireGuardError',
+    'WireGuardConfigError',
+    'WireGuardConnectionError',
+    'WireGuardInterfaceError'
 ] 

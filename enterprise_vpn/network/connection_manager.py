@@ -10,6 +10,7 @@ from ..security.auth import AuthenticationContext
 from ..security.beyondcorp import BeyondCorpValidator
 from ..management.threat_monitoring import ThreatMonitor
 from ..network.access_control import AccessController
+import subprocess
 
 class VPNConnectionError(Exception):
     """Custom exception for VPN connection errors."""
@@ -104,103 +105,132 @@ class ConnectionManager:
         # TODO: Implement actual IP conflict checking
         return False
     
-    def establish_connection(self, auth_context: AuthenticationContext) -> bool:
-        """Establish a VPN connection with detailed error handling."""
-        if not auth_context.authenticated:
-            raise VPNConnectionError("Authentication required", {
-                'error_type': 'authentication',
-                'user_id': auth_context.user_id
-            })
+    def _check_server_connectivity(self, endpoint: str, port: int = 51820) -> bool:
+        """Check if the server is accessible.
         
+        Args:
+            endpoint: Server endpoint to check
+            port: Server port to check
+            
+        Returns:
+            bool: True if server is accessible, False otherwise
+        """
         try:
-            # Step 1: Check server availability
-            server_available, server_error = self.check_server_availability()
-            if not server_available:
-                server_info = self.wireguard.get_server_info()
-                raise VPNConnectionError("Server connectivity check failed", {
-                    'error_type': 'server_connectivity',
-                    'details': server_error,
-                    'server': server_info['endpoint']
-                })
+            # If endpoint is localhost, check if the port is listening
+            if endpoint in ['localhost', '127.0.0.1']:
+                try:
+                    result = subprocess.run(['sudo', 'lsof', '-i', f':{port}'],
+                                       capture_output=True,
+                                       text=True)
+                    return 'wireguard' in result.stdout.lower()
+                except Exception:
+                    return False
             
-            # Step 2: Validate network configuration
-            config_valid, config_error = self.validate_network_config()
-            if not config_valid:
-                raise VPNConnectionError("Network configuration validation failed", {
-                    'error_type': 'network_config',
-                    'details': config_error
-                })
-            
-            # Step 3: Security validation
+            # For remote endpoints, try to establish a UDP connection
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            sock.settimeout(5)
             try:
-                if not self.validator.enforce_policies(
-                    auth_context.user_id,
-                    auth_context.device_id,
-                    auth_context.context_data or {}
-                ):
-                    raise VPNConnectionError("Security policy validation failed", {
-                        'error_type': 'security_policy',
-                        'user_id': auth_context.user_id,
-                        'device_id': auth_context.device_id
-                    })
-            except Exception as e:
-                raise VPNConnectionError("Security validation error", {
-                    'error_type': 'security_validation',
-                    'details': str(e)
-                })
+                sock.connect((endpoint, port))
+                return True
+            except (socket.timeout, socket.error):
+                return False
+            finally:
+                sock.close()
+                
+        except Exception as e:
+            self.logger.error(f"Error checking server connectivity: {str(e)}")
+            return False
+    
+    def establish_connection(self, auth_context: AuthenticationContext) -> bool:
+        """Establish VPN connection.
+        
+        Args:
+            auth_context: Authentication context
             
-            # Step 4: Create peer configuration
-            try:
-                peer_config = self.wireguard.create_peer(
-                    name=auth_context.user_id,
-                    allowed_ips="0.0.0.0/0"
-                )
-            except WireGuardError as e:
-                raise VPNConnectionError("Peer configuration failed", {
-                    'error_type': 'peer_config',
-                    'details': str(e)
-                })
+        Returns:
+            bool: True if connection established successfully
             
-            # Step 5: Apply configuration
-            try:
-                if not self.wireguard.apply_config(peer_config['config']):
-                    raise VPNConnectionError("Configuration application failed", {
-                        'error_type': 'config_application'
-                    })
-            except WireGuardError as e:
-                raise VPNConnectionError("Configuration error", {
-                    'error_type': 'config_error',
-                    'details': str(e)
-                })
-            
-            # Step 6: Initialize session
-            self._current_session = {
-                'auth_context': auth_context,
-                'start_time': datetime.now(),
-                'peer_config': peer_config
-            }
-            
-            # Step 7: Start monitoring
-            try:
-                self.threat_monitor.analyze_behavior(
-                    auth_context.user_id,
+        Raises:
+            VPNConnectionError: If connection fails
+        """
+        try:
+            # Validate security requirements
+            if not self.validator.validate_device(auth_context.device_id):
+                raise VPNConnectionError(
+                    "Device security validation failed",
                     {
-                        'event': 'connection_established',
-                        'timestamp': datetime.now()
+                        'error_type': 'security_policy',
+                        'device_id': auth_context.device_id,
+                        'user_id': auth_context.user_id
                     }
                 )
+            
+            # Check server connectivity
+            server_endpoint = self.wireguard.endpoint
+            if not self.wireguard._check_server_connectivity(server_endpoint):
+                raise VPNConnectionError(
+                    "Server connectivity check failed",
+                    {
+                        'error_type': 'server_connectivity',
+                        'server': server_endpoint,
+                        'details': 'Server port not accessible'
+                    }
+                )
+            
+            # Start monitoring
+            self.threat_monitor.start_monitoring()
+            
+            # Initialize connection
+            try:
+                self.wireguard.start_interface()
             except Exception as e:
-                self.logger.warning(f"Monitoring initialization warning: {str(e)}")
+                raise VPNConnectionError(
+                    f"Failed to initialize connection: {str(e)}",
+                    {
+                        'error_type': 'config_error',
+                        'component': 'wireguard',
+                        'details': str(e)
+                    }
+                )
+            
+            # Store session information
+            self._current_session = {
+                'auth_context': auth_context,
+                'start_time': datetime.now()
+            }
+            
+            # Update connection status
+            if not hasattr(self, '_connection_status'):
+                self._connection_status = ConnectionStatus(
+                    is_connected=False,
+                    connected_since=None,
+                    current_ip=None,
+                    transfer_up=0,
+                    transfer_down=0,
+                    active_peers=[]
+                )
+            
+            self._connection_status = ConnectionStatus(
+                is_connected=True,
+                connected_since=datetime.now(),
+                current_ip=self.wireguard.server_ip if self.wireguard.mode == WireGuardMode.SERVER else None,
+                transfer_up=0,
+                transfer_down=0,
+                active_peers=[]
+            )
             
             return True
             
         except VPNConnectionError:
             raise
         except Exception as e:
-            raise VPNConnectionError("Unexpected error during connection", {
-                'error_type': 'unexpected',
-                'details': str(e)
-            })
+            raise VPNConnectionError(
+                f"Unexpected error: {str(e)}",
+                {
+                    'error_type': 'unknown',
+                    'details': str(e)
+                }
+            )
     
     def check_access(self, resource: str) -> bool:
         """Check if current session has access to resource.
@@ -251,6 +281,20 @@ class ConnectionManager:
         try:
             auth_context = self._current_session['auth_context']
             
+            # Stop the WireGuard interface
+            try:
+                self.wireguard.stop_interface()
+            except Exception as e:
+                self.logger.error(f"Failed to stop WireGuard interface: {str(e)}")
+                # Continue with cleanup even if interface stop fails
+            
+            # Clean up any remaining interfaces
+            for interface in ['utun6', 'utun7', 'utun8', 'utun9', 'utun10', 'utun11']:
+                try:
+                    self.wireguard._cleanup_interface(interface)
+                except Exception as e:
+                    self.logger.warning(f"Failed to clean up interface {interface}: {str(e)}")
+            
             # Log disconnection
             self.threat_monitor.analyze_behavior(
                 auth_context.user_id,
@@ -261,6 +305,13 @@ class ConnectionManager:
                         datetime.now() - self._current_session['start_time']
                     ).total_seconds()
                 }
+            )
+            
+            # Update connection status
+            self._connection_status = ConnectionStatus(
+                is_connected=False,
+                connected_since=None,
+                current_ip=None
             )
             
             self._current_session = None

@@ -5,7 +5,7 @@ import yaml
 import os
 from pathlib import Path
 from typing import Dict, Optional
-from ..core.wireguard_adapter import WireGuardAdapter
+from ..core.wireguard_adapter import WireGuardAdapter, WireGuardMode
 from ..security.auth import OktaAuthProvider, AuthenticationContext
 from ..security.beyondcorp import BeyondCorpValidator
 from ..network.connection_manager import ConnectionManager, VPNConnectionError
@@ -194,8 +194,9 @@ def cli():
               help='Password (for demo: use demo123 for developer account)')
 @click.option('--server', prompt=True, help='VPN server endpoint')
 @click.option('--subnet', prompt=True, help='VPN subnet')
+@click.option('--server-public-key', prompt=True, help='WireGuard server public key')
 @click.option('--no-sudo', is_flag=True, help='Run without sudo (limited functionality)')
-def connect(username: str, password: str, server: str, subnet: str, no_sudo: bool):
+def connect(username: str, password: str, server: str, subnet: str, server_public_key: str, no_sudo: bool):
     """Connect to VPN."""
     try:
         click.echo("\nDemo Mode - Available Accounts:")
@@ -212,7 +213,7 @@ def connect(username: str, password: str, server: str, subnet: str, no_sudo: boo
         
         # Initialize components
         click.echo("Initializing components...")
-        wireguard = WireGuardAdapter(server, subnet)
+        wireguard = WireGuardAdapter(server, subnet, mode=WireGuardMode.CLIENT, server_public_key=server_public_key)
         
         auth_provider = OktaAuthProvider(
             config['auth'].get('domain', 'your-okta-domain'),
